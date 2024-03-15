@@ -12,13 +12,18 @@ namespace _2TDSPG_Cinema.Controllers
         {
             _logger = logger;
         }
-
+      
         public IActionResult Index()
         {
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult CinemaView()
         {
             return View();
         }
